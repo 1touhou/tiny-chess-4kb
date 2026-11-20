@@ -6,6 +6,10 @@
 
 A 4 KB Python chess engine: alpha-beta search with quiescence, a transposition table and null-move pruning, searching a fixed budget of 60,000 nodes per move. It plays games through the make.fun environment and never uses a clock or unseeded randomness.
 
+## Strength
+
+In local practice trials against the kit's gauntlet it scored Elo 1,279 (3 wins out of 6), above the 1,154 floor.
+
 ## Run it
 
 ```sh
